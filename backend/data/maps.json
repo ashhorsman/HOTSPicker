@@ -1,0 +1,168 @@
+{
+  "Alterac Pass": {
+    "Waveclear": 1.05,
+    "Engage": 1.20,
+    "Peel": 1.15,
+    "Save": 1.15,
+    "Disengage": 1.05,
+    "Macro": 1.05,
+    "CampClear": 1.15,
+    "Global": 1.00,
+    "Frontline": 1.05
+  },
+  "Battlefield of Eternity": {
+    "Waveclear": 1.00,
+    "Engage": 1.20,
+    "Peel": 1.05,
+    "Save": 1.05,
+    "Disengage": 1.05,
+    "Macro": 0.95,
+    "CampClear": 1.05,
+    "Global": 0.90,
+    "Frontline": 1.10
+  },
+  "Blackheart's Bay": {
+    "Waveclear": 1.05,
+    "Engage": 0.95,
+    "Peel": 1.05,
+    "Save": 1.00,
+    "Disengage": 1.10,
+    "Macro": 1.30,
+    "CampClear": 1.35,
+    "Global": 1.25,
+    "Frontline": 1.00
+  },
+  "Braxis Holdout": {
+    "Waveclear": 1.15,
+    "Engage": 1.10,
+    "Peel": 1.10,
+    "Save": 1.05,
+    "Disengage": 1.00,
+    "Macro": 1.00,
+    "CampClear": 1.10,
+    "Global": 0.95,
+    "Frontline": 1.10
+  },
+  "Cursed Hollow": {
+    "Waveclear": 1.10,
+    "Engage": 1.10,
+    "Peel": 1.05,
+    "Save": 1.05,
+    "Disengage": 1.05,
+    "Macro": 1.25,
+    "CampClear": 1.20,
+    "Global": 1.30,
+    "Frontline": 1.05
+  },
+  "Dragon Shire": {
+    "Waveclear": 1.05,
+    "Engage": 1.05,
+    "Peel": 1.05,
+    "Save": 1.00,
+    "Disengage": 1.05,
+    "Macro": 1.25,
+    "CampClear": 1.15,
+    "Global": 1.30,
+    "Frontline": 1.05
+  },
+  "Garden of Terror": {
+    "Waveclear": 1.20,
+    "Engage": 1.05,
+    "Peel": 1.00,
+    "Save": 1.00,
+    "Disengage": 1.00,
+    "Macro": 1.25,
+    "CampClear": 1.20,
+    "Global": 1.15,
+    "Frontline": 1.00
+  },
+  "Hanamura Temple": {
+    "Waveclear": 0.90,
+    "Engage": 1.05,
+    "Peel": 1.00,
+    "Save": 1.00,
+    "Disengage": 1.00,
+    "Macro": 1.25,
+    "CampClear": 1.35,
+    "Global": 1.10,
+    "Frontline": 1.00
+  },
+  "Infernal Shrines": {
+    "Waveclear": 1.35,
+    "Engage": 1.20,
+    "Peel": 1.10,
+    "Save": 1.05,
+    "Disengage": 1.10,
+    "Macro": 0.95,
+    "CampClear": 1.00,
+    "Global": 0.95,
+    "Frontline": 1.10
+  },
+  "Sky Temple": {
+    "Waveclear": 1.10,
+    "Engage": 1.10,
+    "Peel": 1.00,
+    "Save": 1.00,
+    "Disengage": 1.00,
+    "Macro": 1.25,
+    "CampClear": 1.15,
+    "Global": 1.25,
+    "Frontline": 1.00
+  },
+  "Tomb of the Spider Queen": {
+    "Waveclear": 1.35,
+    "Engage": 1.10,
+    "Peel": 1.00,
+    "Save": 1.00,
+    "Disengage": 1.00,
+    "Macro": 1.15,
+    "CampClear": 1.20,
+    "Global": 0.95,
+    "Frontline": 1.00
+  },
+  "Towers of Doom": {
+    "Waveclear": 1.05,
+    "Engage": 1.20,
+    "Peel": 1.05,
+    "Save": 1.00,
+    "Disengage": 1.15,
+    "Macro": 1.20,
+    "CampClear": 1.25,
+    "Global": 1.10,
+    "Frontline": 1.05
+  },
+  "Volskaya Foundry": {
+    "Waveclear": 1.05,
+    "Engage": 1.20,
+    "Peel": 1.25,
+    "Save": 1.25,
+    "Disengage": 1.05,
+    "Macro": 1.00,
+    "CampClear": 1.05,
+    "Global": 0.95,
+    "Frontline": 1.10
+  },
+  "Warhead Junction": {
+    "Waveclear": 1.00,
+    "Engage": 1.05,
+    "Peel": 1.00,
+    "Save": 1.00,
+    "Disengage": 1.00,
+    "Macro": 1.30,
+    "CampClear": 1.20,
+    "Global": 1.35,
+    "Frontline": 1.00
+  },
+
+  "Haunted Mines": {
+    "Waveclear": 1.05,
+    "Engage": 1.10,
+    "Peel": 1.00,
+    "Save": 1.00,
+    "Disengage": 1.00,
+    "Macro": 1.10,
+    "CampClear": 1.20,
+    "Global": 0.95,
+    "Frontline": 1.05
+  }
+}

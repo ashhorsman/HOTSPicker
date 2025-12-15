@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HotS Draft Assistant v1</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="title">HotS Storm League Draft Assistant</div>
+    <div class="controls">
+      <label>First ban
+        <select id="firstBanSelect">
+          <option value="ally" selected>Allies</option>
+          <option value="enemy">Enemies</option>
+        </select>
+      </label>
+
+      <div class="status" id="currentAction">Draft not started</div>
+
+      <label>Rank
+        <select id="rankSelect">
+          <option>Bronze</option>
+          <option selected>Silver</option>
+          <option>Gold</option>
+          <option>Plat+</option>
+        </select>
+      </label>
+
+      <label>Map
+        <select id="mapSelect"></select>
+      </label>
+
+      <label>
+        <input type="checkbox" id="simpleToggle" checked />
+        Simple comps
+      </label>
+
+      <button id="skipBtn">Skip</button>
+      <button id="undoBtn">Undo</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="panel">
+      <h2>Draft</h2>
+
+      <div id="timeline" class="timeline"></div>
+
+      <div class="draftCols">
+        <div>
+          <h3>Allies</h3>
+          <div class="smallLabel">Bans</div>
+          <div class="chips" id="allyBans"></div>
+          <div class="smallLabel">Picks</div>
+          <div class="chips" id="ourPicks"></div>
+        </div>
+        <div>
+          <h3>Enemies</h3>
+          <div class="smallLabel">Bans</div>
+          <div class="chips" id="enemyBans"></div>
+          <div class="smallLabel">Picks</div>
+          <div class="chips" id="enemyPicks"></div>
+        </div>
+      </div>
+
+      <div class="searchRow">
+        <input id="searchBox" placeholder="Search heroes..." />
+      </div>
+
+      <div class="hint">Click a hero to fill the current draft slot (pick or ban). Use Undo to step back.</div>
+      <div id="roleFilters" class="roleFilters"></div>
+
+      <div id="heroList" class="heroList"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Recommendations</h2>
+      <div id="scoreSummary" class="scoreCard"></div>
+
+      <h2>Warnings</h2>
+      <ul id="warnings" class="warnings"></ul>
+
+      <h2>End plan</h2>
+      <ol id="plan" class="plan"></ol>
+    </section>
+  </main>
+
+    <!-- Hover help tooltip (2s hover delay) -->
+  <div id="hoverHelp" class="hoverHelp hidden" role="tooltip" aria-hidden="true">
+    <div class="hoverHelpSpinner hidden" id="hoverHelpSpinner"></div>
+    <div class="hoverHelpText" id="hoverHelpText"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
